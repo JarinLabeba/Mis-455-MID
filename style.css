@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/* Navigation */
+nav{
+    float: right;
+    margin: 0;
+    overflow:hidden;
+    text-align: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div{
+   background:rgb(161, 217, 64);
+   overflow: hidden;
+}
+
+login {
+    background-color: #04AA6D;
+    color: rgb(9, 50, 234);
+    padding: flex;
+    margin: 8px 0;
+    border: #04AA6D;
+    cursor: pointer;
+    width: 100%;
+  }
+  /* Add padding to containers */
+.container {
+    padding: 16px;
+  }
+
+.image-text {
+    align-content: right;
+    height: 50;
+    width: 50;
+    background:rgb(161, 217, 64);
+    overflow: hidden;
+    padding-left: 10;
+  }
+.img-c{
+    align-items: right;
+    align-content: flex-end;
+    float: right;
+    height: 5;
+    width: 5;
+}
+
+.wrimagecard{	
+	margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.wrimagecard .fa{
+	position: relative;
+    font-size: 70px;
+    height: 20%;
+    width: 20%;
+}
+.wrimagecard-topimage_header{
+padding: 20px;
+}
+a.wrimagecard:hover, .wrimagecard-topimage:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+.wrimagecard-topimage a { 
+    display: block;
+}
+.wrimagecard-topimage_title {
+    padding: 20px 24px;
+    height: 80px;
+    padding-bottom: 0.75rem;
+    position: relative;
+}
+.wrimagecard-topimage a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
+}
+
+
+.wrimagecard2{	
+	margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    height: fit-content;
+    height: fit-content;
+}
+.wrimagecard2 .fa{
+	position: relative;
+    font-size: 70px;
+    height: 100%;
+    width: 100%;
+}
+.wrimagecard-topimage_header2{
+padding: 20px;
+}
+a.wrimagecard2:hover, .wrimagecard-topimage2:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+.wrimagecard-topimage2 a { 
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.wrimagecard-topimage_title2 {
+    padding: 20px 24px;
+    height: 100%;
+    padding-bottom: 0.75rem;
+    position: relative;
+}
+.wrimagecard-topimage2 a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
+}
